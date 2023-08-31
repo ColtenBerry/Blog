@@ -1,14 +1,14 @@
-title: Your awesome title
-author:
-  name: GitHub User
-  email: your-email@domain.com
+title: Super Amazing Blog
+author: 
+  name: Colten Berry
+  email: BerryCJ@Hendrix.edu
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+  This is my blog, I work hard to make this blog as amazing and awesome as humanly possible!
+  My goals for this blog are to be completely awesome, and make me immense amounts of cash. Whether or not
+  I accomplish those goals however, depend entirely upon the state of the economy. I love money. 
 
 # Build settings
 
@@ -28,14 +28,14 @@ minima:
 
   # Generate social links in footer.
   #
-  # social_links:
+  social_links:
   #   - { platform: devto,          user_url: "https://dev.to/jekyll" }
   #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
   #   - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
   #   - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
-  #   - { platform: github,         user_url: "https://github.com/jekyll/minima" }
+    - { platform: github,         user_url: "https://ColtenBerry.github.io" }
   #   - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
-  #   - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
+    - { platform: instagram,      user_url: "https://www.instagram.com/colte_berr" }
   #   - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
   #   - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
   #   - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
