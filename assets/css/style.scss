@@ -5,3 +5,31 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+  .post {
+
+  }
+
+  .site-header {
+    background-color: orange;
+    color: wheat;
+  }
+
+  .site-nav {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-fill-color: black;
+  }
+
+  .site-title {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-fill-color: black;
+  }
+
+  .class-site {
+    color: black;
+    -webkit-text-stroke-width: 1px;
+  }
+  
+  .code-image {
+    height: 80%;
+  }
