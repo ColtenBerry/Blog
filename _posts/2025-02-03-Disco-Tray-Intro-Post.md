@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Disco Tray Week 1 Post"
+categories: Disco Tray
+author: Colten Berry
+---
+
+<p>This week was my first week working with Disco Tray Studios. I am pretty excited since I enjoy the software development side of computer science and this will give me more opportunities to do that kind of thing. The first task I was given was to update the Disco Tray Studios website with my name, picture, a fun fact, and a link to my blog. The hardest part of this task was finding a decent picture of myself to upload.<p>
+<p> After I completed this task, I was given my project assignment and me and my group began to look at the issues. We were assigned the Faulkner Footsteps app. I am happy with this assignment since the app seems to be working very well and doesn't seem to have too many issues. Of course, I won't know this for sure until I am given a chance to really examine the code and database and have a look at what is going on. The largest problem seems to be that the historical sites do not have images unique to them. I think I remember this group explaining that the reason for this is because they are storing all of the information relevant to their historical sites on Firebase and Firebase does not store pictures as far as I know. I think the obvious solution to this problem would be to just store user information on Firebase and store any information relevant to the historical sites within the app itself. There may be a reason that the group that created this app did not do this, but I am sure if there is a reason then it will become apparent soon.</p>
+<p>This project looks good, I like its style and the feel of it. There are just a few issues that honestly seem pretty minor need fixed and a couple new features that should be fairly easy to implement, such as a search bar.</p>
