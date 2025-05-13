@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Disco Tray Final Post"
+categories: Disco Tray
+author: Colten Berry
+---
+
+
+This semester working at Disco Tray has been a great experience. I have enjoyed working on the Faulkner Footsteps app and I believe me and my peers have gotten it into a state that I would feel comfortable publishing. There are a few known bugs that I just have not had the time to fix, but for the most part I feel the app is in a polished state. We changed much of the styling of the app, added more features to it, and cut parts we felt were unnecessary, such as the achievement page. For my part, I implemented images in a few different forms before settling on using the firebase storage. I originally tried to store images in a google drive and referenced that drive, then I stored them as base 64 strings in firestore, and I finally decided to use firebase storage. I also extended the admin page to allow the user to upload images from their gallery and to delete images from the firestore as well as adjusting their order. Some other major features I added are a filter feature, a searchbar, new paths for the routing, and I altered the rating system from a dialog to just a part of the historical site page. I also had to fix a lot of bugs with every new feature I added. I really liked the opportunity to continue work on a mobile app and I enjoyed Flutter a lot. It was easy to understand and can do some pretty complex tasks. I also feel like I have expanded my skills for working with a team. I am a lot more comfortable with GitHub and feel a lot better about managing merge conflicts than I used to. 
