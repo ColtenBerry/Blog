@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Disco Tray Week 2 Post"
+categories: Disco Tray
+author: Colten Berry
+---
+
+<p>This week I took on a variety of issues. I finally learned how to use the VS Code debugger and that really helped me figure our what the root of the problem was for the filter chip duplication issue. Apparently flutter will call the build method multiple times, so if you have a function in there that populates the filter list, that list will be populated multiple times. Being able to pause the program allowed me to see exactly when the filter chip list was populated and I managed to catch the issue. Now, the filter chip list clears itself before repopulating and this is only called when a listener is triggered. </p>
+<p>With my new listener, I managed to get sites to update in our list page after we edit them in the admin page. So new sites appear, deleted sites disappear, and updated sites are actually updated without having to relaunch the app. </p>
+<p>I spent the rest of my hours this week trying to get images to load in our edit images dialog on our admin page. Curently, if the appstate has not yet loaded the images, then no images appear in the dialog and you will have to close and reopen the dialog until they do appear. I managed to add a loading circle to indicate that they are loading, but I cannot get the circle to change to the Reorderable List when they do load. This was difficult. When I tried to put a listener on the dialog, I got errors or it just didn't work. Since the appstate is already loading the images, a Future method to load them just doesn't feel right to me. A listener felt correct from a design standpoint and I spent a long time trying to figure out a way to get that to work with our project. After that failed, I have been researching more on appstate and I am wanting to try a few new ideas on how to get it to load. Consumers and Providers I think are worth looking into. Actually, from what I have read we probably should have been using them for the rest of our app. But since appstate was only recently allowed to change with the addition of the admin page, this way of thinking was never necessary.</p>
